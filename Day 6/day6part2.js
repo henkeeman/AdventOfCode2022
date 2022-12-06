@@ -12,7 +12,7 @@ let signalfile = syncReadFile("input.txt");
 let cache = [];
 firstVal = 0;
 //Behöver bara ändra den här för part 2
-let distinctChars = 4;
+let distinctChars = 14;
 function checkCache(_letter, iIndex)
 {
     cache.unshift(_letter);
